@@ -30,7 +30,7 @@ sudo apt-get install -y nodejs
 #### If you have finished downloading, run the following in your terminal:
 
 ```{bash}
-    node -version
+    node --version
 ```
 
 * If this works: you have successfully installed Node.js
@@ -54,4 +54,3 @@ This is just a text editor. Biggest sells are syntax highliting, and built-in te
 1. Download Visual Code from [the official site](https://code.visualstudio.com/)
 
 2. Install it on your computer.
-
