@@ -37,7 +37,7 @@ To fix our problem, we have to disable __Apply Root Motion__ in the Animator com
 
 Our final step is to add a __Collider__ so that something happens when John Lemon runs into another object in the environment. We can do so by adding another component to our John Lemon object called the __Capsule Collider__ (make sure you don't select the 2D option again). When we add this collider, Unity automatically sets the bounds but we want to customize them to fit our player model. so set __Height__ to __1.4__, __Center__ to __(0, 0.7, 0)__, and __Radius__ to __0.4__. In the scene window, you should see that the collider fits John Lemon quite well!
 
-## SCripting: C# in Unity 
+## Scripting: C# in Unity 
 
 Here's the link to the slide and document to Introduction to C# in Unity. 
 
