@@ -29,9 +29,9 @@ in this project we will be building a ```full-stack entertainment``` tracker app
 | Lesson # | Week # | Date          | Description                                                                |
 | -------- | ------ | ------------- | ---------------------------------------------------------------------------|
 | 1        | 1      | Feb 6         | Environment Setup & Introduction to JavaScript                             |
-| 2        | 2      | Feb 13        | Introduction to REST API and NoSQL Databases with MongoDB                  |
-| 3        | 3      | Feb 27        | Introduction to client-side with Vue.js and Bulma                          |
-| 4        | 7      | Mar 5         | Finishing up main Vue.js components and                                    |
+| 2        | 2      | Feb 13        | Introduction to REST API                                                   |
+| 3        | 3      | Feb 27        | Transition to NoSQL Databases with MongoDB and intro to Vue.js             |
+| 4        | 7      | Mar 5         | Finishing up our Vue.js components                                         |
 | 5        | 8      | Mar 12        | Introduction to JWT authentication                                         |
 | 6        | 9      | Mar 19        | Finishing JWT auth on server-side and adding Vue.js components for auth    |
 | 7        | 10     | Mar 26        | End of Term Event!                                                         |
