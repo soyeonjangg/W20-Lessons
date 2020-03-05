@@ -53,6 +53,7 @@ Go to Project Windows, **Assets > Prefabs** and drag the **Level Prefab** into t
 Now let's position our player into its starting position. Set Transform component's **Position** property of JohnLemon to **(-9.8, 0, -3.2)**. 
 
 ___Adding a Navigation Mesh___
+
 Unity has a built-in system called the **NavMesh**. A Mesh is a collection of triangles that all fit together to define a shape. The mesh enables JohnLemon to be rendered to the screen. The **NavMesh** is an invisible shape over the ground that defines an area within which selected GameObjects can move. 
 
 When a GameObject is identified as **Static**, Unity's navigation systems assume that it will not move. The game environment consists of many GameObjects with Mesh Renderer Components. The combination of all the meshes from the Mesh Renderer Components whose GameObjects are marked as Static form the basis for the NavMesh. Let's mark our environmental GameObject as static by selecting the **Level** GameObject and enabling the **Static** checkbox. When a dialogue box appear asking whether you wish to enable the static flags for all the child objects, select **Yes, change children**. However, we need to set one exception. Find **Ceiling Plane** GameObject under Level > Corridors > Dressing > Ceiling Plane and disable the **Static** checkbox. 
